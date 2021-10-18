@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@400;500;700&display=swap');
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Spartan', sans-serif;
+  } 
+  body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+  } 
+  section{
+    padding: 5rem 6.2rem;
+    margin-top: 12%;
+    max-width: 1440px;
+    font-family: "Spartan", sans-serif;
+    
+    
+    background: url(./images/bg-pattern-top-desktop.svg) left top no-repeat, url(./images/bg-pattern-bottom-desktop.svg) right bottom no-repeat;
+  }
+  .container{
+    
+    display: grid;
+    
+    height: auto;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    
+  }
+  .text_left{
+    
+
+    grid-column: 1/1;
+    grid-row: 1/1;
+
+  }
+  .text_header{
+    color: hsl(300, 43%, 22%);
+    padding-right: 38%;
+    font-size: 30px;
+    font-weight: 700;
+  }
+  .text_body{
+    font-size: 15px;
+    color: hsl(303, 10%, 53%);
+    margin-right: 16%;
+    
+    line-height: 1.8;
+  }
+  .text_right{
+    
+    grid-column: 2/2;
+    grid-row: 1/1;
+  }
+  .string1{
+    margin-top: 21px;
+    margin-bottom: 18px;
+    padding-left: 17px;
+    align-items: center;
+    display: flex;
+    background-color: hsl(300, 24%, 96%);
+    max-width: 450px;
+    height: 47px;
+    border-radius: 10px;
+  }
+  .string2{
+    margin-top: 8px;
+    margin-bottom: 18px;
+    margin-left: 55px;
+    padding-left: 17px;
+    align-items: center;
+    display: flex;
+    background-color: hsl(300, 24%, 96%);
+    max-width: 450px;
+    height: 47px;
+    border-radius: 10px;
+  }
+  .string3{
+    margin-top: 8px;
+    margin-bottom: 8px;
+    margin-left: 110px;
+    padding-left: 17px;
+    align-items: center;
+    display: flex;
+    background-color: hsl(300, 24%, 96%);
+    max-width: 450px;
+    height: 47px;
+    border-radius: 10px;
+  }
+  .stars{
+    padding-left: 20px;
+    width: 160px;
+    transform:scale(1.1) ;
+  }
+  
+ .rated{
+    font-size: 15px;
+    padding-left: 10px;
+    color: hsl(300, 43%, 22%);
+    font-weight: 700;
+  }
+  .footer{
+    font-size: 15px;
+    position: relative;
+    display: flex;
+    height: 300px;
+    
+    grid-column: 1/4;
+    grid-row: 2/2;
+    
+  }
+  .clientImage{
+    border-radius: 50%;
+    width: 3rem;
+  height: auto;
+
+  }
+  .foto{
+    width: 53px;
+    float:left ;
+  }
+  p{
+    color: hsl(333, 80%, 67%);
+  }
+  .name{
+    color: hsl(0, 0%, 100%);
+    padding: 10px;
+    margin-left: 60px;
+    
+  }
+  .card_text{
+    color: hsl(0, 0%, 100%);
+    padding-top: 29px;
+  }
+  .card1{
+    padding: 35px 22px;
+    border-radius: 10px;
+    width: 30.5%;
+    background-color: hsl(300, 43%, 22%);
+    height: 250px;
+    margin-right: 20px;
+  }
+  .card2{
+    padding: 35px 22px;
+    border-radius: 10px;
+    width: 30.5%;
+    background-color: hsl(300, 43%, 22%);
+    height: 250px;
+    margin: 30px;
+  }
+  .card3{
+    padding: 35px 22px;
+    border-radius: 10px;
+    width: 30.5%;
+    background-color: hsl(300, 43%, 22%);
+    height: 250px;
+    margin: 50px 0px 0px 20px;
+  }
+
+
